@@ -35,7 +35,7 @@
     "paper-menu": "PolymerElements/paper-menu#1.1.0",
     "paper-tabs": "PolymerElements/paper-tabs#1.0.2",
     "paper-toolbar": "PolymerElements/paper-toolbar#1.0.4",
-    "t-button": "atomproject/t-button#0.0.0", 
+    "t-button": "atomelements/t-button#0.0.0", 
     "polymer": "Polymer/polymer#^1.0.0"
   },
   "devDependencies": {
