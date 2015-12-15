@@ -30,6 +30,7 @@ Example:
   <content id="navToolbar" select="nav-toolbar"></content>
   <content id="searchBar" select="search-bar"></content>
   <content id="navContent" select="nav-content"></content>
+  <content id="buildStatus" select="build-status"></content>
 <!-- new for atom tabcontent-->
   <content id="tabContent" select="tab-content"></content>
   <content id="mainContent" select=".content"></content>
@@ -105,6 +106,7 @@ Example:
         Polymer.dom(scaffold).appendChild(container.$.searchBar);
         Polymer.dom(scaffold).appendChild(container.$.headerToolbar);
         Polymer.dom(scaffold).appendChild(container.$.navContent);
+        Polymer.dom(scaffold).appendChild(container.$.buildStatus);
         Polymer.dom(scaffold).appendChild(container.$.mainContent);
         Polymer.dom(scaffold).appendChild(container.$.navList);
         Polymer.dom(scaffold).appendChild(container.$.rightPanel);
